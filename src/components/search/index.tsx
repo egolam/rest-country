@@ -2,7 +2,7 @@
 
 import { FaMagnifyingGlass } from "react-icons/fa6";
 import { useRouter, usePathname, useSearchParams } from "next/navigation";
-import { useCallback, useState } from "react";
+import { useCallback } from "react";
 import { useDebounceCallback } from "usehooks-ts";
 import { ChangeEvent } from "react";
 
