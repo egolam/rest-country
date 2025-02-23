@@ -17,7 +17,7 @@ export const CountryCard = ({
   capital,
 }: CountryCard) => {
   return (
-    <li className="w-66 h-84 rounded-sm drop-shadow-component bg-white dark:bg-dark-component-bg flex overflow-hidden text-primary dark:text-white">
+    <li className="w-66 h-84 rounded-sm drop-shadow-component bg-white dark:bg-dark-component-bg flex overflow-hidden text-primary dark:text-white hover:scale-105 transition-transform">
       <Link href={`/${name.toLowerCase().trim()}`} className="flex-1">
         <ImageWithFallback name={name} src={flag} />
         <div className="px-6 pt-6 flex flex-col gap-4">
